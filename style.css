@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.emoji-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.emoji {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+.code {
+  margin: 0;
+  font-size: 1rem;
+}
